@@ -11,7 +11,7 @@ const Nav = () => {
 				<a>Massages</a>
 			</div>
 			<div className={s.item}>
-				<a>News</a>
+				<a>News </a>
 			</div>
 			<div className={s.item}>
 				<a>Music</a>
