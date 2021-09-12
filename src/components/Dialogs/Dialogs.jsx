@@ -1,22 +1,9 @@
 import React from 'react';
 import s from './Dialogs.module.css';
-import { NavLink } from 'react-router-dom';
 import { props } from 'bluebird';
+import DialogItem from './DialogItem/DialogItem';
+import Message from './Message/Message';
 
-const DialogItem = (props) => {
-  let path = "/dialogs/" + props.id;
-  return (
-    <div className={s.dialog + ' ' + s.active}>
-      <NavLink to={path}>{props.name}</NavLink>
-    </div>
-  )
-}
-
-const Message = (props) => {
-  return (
-    <div className={s.dialog}>{props.message}</div>
-  )
-}
 
 const Dialogs = (props) => {
 
@@ -35,16 +22,15 @@ const Dialogs = (props) => {
   ]
 
   let dialogsElements = dialogs.map(d => <DialogItem name={d.name} id={d.id} />);
-
   let messagesElements = messages.map(m => <Message message={m.message} />);
 
   return (
     <div className={s.dialogs}>
       <div className={s.dialogsItems}>
-        { dialogsElements }
+        {dialogsElements}
       </div>
       <div className={s.messages}>
-        { messagesElements }
+        {messagesElements}
       </div>
     </div>
   )
