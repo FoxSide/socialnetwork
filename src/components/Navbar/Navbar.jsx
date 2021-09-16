@@ -25,12 +25,9 @@ const Nav = () => {
 				<div className={s.fontFfriends}>
 					Friends
 				</div>
-				<div className={s.avatar}>
-				</div>
-				<div className={s.avatar}>
-				</div>
-				<div className={s.avatar}>
-				</div>
+				<div className={s.avatar}/>
+				<div className={s.avatar}/>
+				<div className={s.avatar}/>
 				<div className={s.fontName}>
 					Valera
 				</div>

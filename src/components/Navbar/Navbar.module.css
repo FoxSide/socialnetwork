@@ -14,7 +14,7 @@
 }
 
 .friendAdd {
-  padding-top: 100px;
+  padding-top: 400px;
 }
 
 .fontFfriends {
@@ -31,8 +31,9 @@
 }
 
 .avatar {
-  border: 25px solid rebeccapurple; border-radius: 100px; ;
   display: inline-block;
+  border: 25px solid rebeccapurple; 
+  border-radius: 50px; ;
   margin-left: 25px;
   margin-top: 10px;
 }
