@@ -20,6 +20,27 @@ const Nav = () => {
 			<div className={s.item}>
 				<NavLink to='settings' activeClassName={s.active}>Settings</NavLink>
 			</div>
+
+			<div className={s.friendAdd}>
+				<div className={s.fontFfriends}>
+					Friends
+				</div>
+				<div className={s.avatar}>
+				</div>
+				<div className={s.avatar}>
+				</div>
+				<div className={s.avatar}>
+				</div>
+				<div className={s.fontName}>
+					Valera
+				</div>
+				<div className={s.fontName}>
+					Sveta
+				</div>
+				<div className={s.fontName}>
+					Sasha
+				</div>
+			</div>
 		</nav>
 	)
 }

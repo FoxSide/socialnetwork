@@ -12,3 +12,27 @@
 .item a.active {
   color: blue;
 }
+
+.friendAdd {
+  padding-top: 100px;
+}
+
+.fontFfriends {
+  font-size: x-large;
+  color:  white;
+  padding-left: 90px;
+}
+
+.fontName {
+  color: white;
+  font-size: 18px;
+  margin-left: 28px;
+  display: inline-block;
+}
+
+.avatar {
+  border: 25px solid rebeccapurple; border-radius: 100px; ;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 10px;
+}
